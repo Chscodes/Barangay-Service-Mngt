@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstFrag_id"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/secondFrag_id"
+        android:title="Updates"
+        android:icon="@drawable/ic_announcement" />
+    <item
+        android:id="@+id/profile_frag_id"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_uname"/>
+</menu>

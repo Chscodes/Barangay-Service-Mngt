@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_req"
+    tools:context=".viewReq">
+
+    <RelativeLayout
+        android:id="@+id/Vbox2"
+        android:layout_width="178dp"
+        android:layout_height="23dp"
+        android:background="@drawable/style_req"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Vbox1"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_marginEnd="24dp"
+        android:background="#f5f6fa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Vbox2">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="106dp"
+            android:layout_height="108dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            app:srcCompat="@drawable/folders" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/lemonbold"
+            android:text="Filled Out Informations"
+            android:textColor="#192a56"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/lblinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView9"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/fragmentcore"
+            android:text="This was the informations that you input a while ago to submit a request"
+            android:textColor="#2f3640"
+            android:textSize="11sp" />
+
+        <View
+            android:id="@+id/dvd1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/lblinfo"
+            android:layout_marginTop="5dp"
+            android:background="#dcdde1" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="552dp"
+        android:background="#f5f6fa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Vbox1"
+        app:layout_constraintVertical_bias="0.0">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="850dp">
+
+
+                <TextView
+                    android:id="@+id/view_lbltypedocu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Type Of Document: "
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edt_view_docutype"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_lbltypedocu"
+                    android:layout_marginStart="10sp"
+                    android:background="@drawable/bg_newmainmenu_reqdoc"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:paddingTop="15sp"
+                    android:paddingEnd="5dp"
+                    android:paddingBottom="15sp"
+                    android:text="Name"
+                    android:textAlignment="center"
+                    android:textColor="#2D3436"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/view_lblpurpose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/edt_view_docutype"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Purpose : "
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edt_view_purp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_lblpurpose"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5sp"
+                    android:layout_toEndOf="@+id/edt_view_docutype"
+                    android:background="@drawable/bg_newmainmenu_reqdoc"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:paddingTop="15sp"
+                    android:paddingEnd="5dp"
+                    android:paddingBottom="15sp"
+                    android:text="Name"
+                    android:textAlignment="center"
+                    android:textColor="#2D3436"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/view_lblrefnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_view_docutype"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Reference Number: "
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/view_value_refnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_view_docutype"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toEndOf="@+id/view_lblrefnum"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="2022-222-22222 "
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/view_lblfullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_lblrefnum"
+                    android:layout_marginTop="15sp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:paddingStart="5sp"
+                    android:text="Personal Information:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtLname_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_lblfullname"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="55sp"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="@string/lastname"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtFname_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtLname_view"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="55sp"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="@string/firstname"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtMname_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtFname_view"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="55sp"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="No Middlename"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtaddress_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtMname_view"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="55sp"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="@string/address"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edt_view_bday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtaddress_view"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="55dp"
+                    android:backgroundTint="#dcdde1"
+                    android:drawableStart="@drawable/ic_baseline_date_range_24"
+                    android:enabled="false"
+                    android:ems="10"
+                    android:hint="@string/select_a_date"
+                    android:inputType="date"
+                    android:paddingStart="10sp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="14dp" />
+
+
+                <EditText
+                    android:id="@+id/edtgender_view"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_view_bday"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5sp"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Gender"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+
+                <EditText
+                    android:id="@+id/edtrsdncy_view"
+                    android:layout_width="275sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_view_bday"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginEnd="55sp"
+                    android:layout_toEndOf="@+id/edtgender_view"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Residency"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtctzn_view"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtgender_view"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5sp"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Citizenship"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+
+                <EditText
+                    android:id="@+id/edtpday_view"
+                    android:layout_width="275sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtgender_view"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginEnd="55sp"
+                    android:layout_toEndOf="@+id/edtctzn_view"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Place of birth"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/view_lblothers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtctzn_view"
+                    android:layout_marginTop="15sp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:paddingStart="5sp"
+                    android:text="Other Information:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+
+                <EditText
+                    android:id="@+id/edtmarital_view"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_lblothers"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5sp"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Marital Status"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+
+                <EditText
+                    android:id="@+id/edtdays_view"
+                    android:layout_width="275sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_lblothers"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginEnd="55sp"
+                    android:layout_toEndOf="@+id/edtmarital_view"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="No. Years"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtcnum_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtmarital_view"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="55sp"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Cp num"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtwife_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtcnum_view"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="55sp"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Spouse"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+
+                <EditText
+                    android:id="@+id/edtchild_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtwife_view"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="55sp"
+                    android:backgroundTint="#dcdde1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="CHildren"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#ff4d4d"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btn_view_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/btn_view_cancel"
+                    android:text="Cancel Request"
+                    android:textColor="#F5F6FA"
+                    tools:layout_editor_absoluteX="152dp"
+                    tools:layout_editor_absoluteY="586dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:backgroundTint="#00F5F6FA"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="30dp"
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#f5f6fa">
+
+            <TextView
+                android:id="@+id/lblref"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Reference number:"
+                android:textColor="#2d3436"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/val_refnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/lblref"
+                android:fontFamily="serif"
+                android:text="2022-21-4342"
+                android:textColor="#2d3436"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/lbldocs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblref"
+                android:layout_marginStart="10dp"
+                android:fontFamily="serif"
+                android:text="Acquired Document:"
+                android:textColor="#2d3436"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/val_docs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/val_refnum"
+                android:layout_marginStart="7dp"
+                android:layout_toEndOf="@+id/lbldocs"
+                android:fontFamily="serif"
+                android:text="Barangay Clerance"
+                android:textColor="#2d3436"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/lblctznname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lbldocs"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10sp"
+                android:fontFamily="serif"
+                android:text="Citizen Name:"
+                android:textColor="#2d3436"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/val_lname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblctznname"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="10sp"
+                android:layout_toEndOf="@+id/imageView3"
+                android:fontFamily="serif"
+                android:text="Minoza"
+                android:textColor="#2d3436"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/lblcomma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblctznname"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5sp"
+                android:layout_toEndOf="@+id/val_lname"
+                android:fontFamily="serif"
+                android:text=","
+                android:textColor="#2d3436"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/val_fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblctznname"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="10sp"
+                android:layout_toEndOf="@+id/lblcomma"
+                android:fontFamily="serif"
+                android:text="Chester Clenn"
+                android:textColor="#2d3436"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/val_mname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblctznname"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="10sp"
+                android:layout_toEndOf="@+id/val_fname"
+                android:fontFamily="serif"
+                android:text="Abrantes"
+                android:textColor="#2d3436"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_below="@+id/val_lname"
+
+                android:background="#bdc3c7" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="2dp"
+                android:layout_height="113dp"
+                android:background="#bdc3c7" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:background="#FF6D27" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="2dp"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:background="#FF6D27" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="59dp"
+                android:layout_height="19dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="20sp"
+                android:background="@drawable/edittext_bg"
+                android:text="VIEW"
+                android:textColor="#FF6D27"
+                android:textSize="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="36dp"
+                android:layout_height="28dp"
+                android:layout_below="@+id/lblctznname"
+                android:layout_marginStart="5dp"
+                app:srcCompat="@drawable/userr" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

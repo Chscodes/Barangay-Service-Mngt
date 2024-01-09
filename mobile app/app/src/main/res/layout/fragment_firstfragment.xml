@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstFrag_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f6fa"
+    tools:context=".firstfragment">
+
+    <RelativeLayout
+        android:id="@+id/headeremergency"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/header_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_sUppp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/boldgogh"
+            android:text="@string/home"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="5sp"
+            android:src="@drawable/ic_home_white" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_f1_emer"
+        android:layout_width="150dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/emerg_btn"
+        android:drawableBottom="@drawable/help"
+        android:paddingTop="20sp"
+        android:paddingBottom="35sp"
+        android:text="@string/emergency"
+        android:textColor="#f5f6fa"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/btn_f1_req"
+        android:layout_width="150dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/req_btn"
+        android:drawableBottom="@drawable/request"
+        android:paddingTop="20sp"
+        android:paddingBottom="35sp"
+        android:text="@string/request"
+        android:textColor="#f5f6fa"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:textColor="#778ca3"
+        android:textSize="15sp"
+        android:fontFamily="@font/mini"
+        android:text="@string/all_rights_reserve_2022"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/boldgogh"
+        android:text=" This Brgy Potrero Motto"
+        android:textColor="#4b4b4b"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headeremergency" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

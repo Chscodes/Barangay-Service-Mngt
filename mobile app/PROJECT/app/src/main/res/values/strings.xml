@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">capsproj_brgyPotrero</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="signup"><b><u>Sign Up</u></b></string>
+    <string name="BRGY"><b><u>MUNICIPAL OF BARANGAY POTRERO</u></b></string>
+</resources>

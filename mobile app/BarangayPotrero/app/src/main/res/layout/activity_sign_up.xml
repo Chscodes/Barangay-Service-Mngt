@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f6fa"
+    tools:context=".Sign_up">
+
+    <ImageButton
+        android:id="@+id/btn_cancel"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cross" />
+
+    <TextView
+        android:id="@+id/tv_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/lblsignup"
+        android:textColor="#4cd137"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IV_signup" />
+
+    <EditText
+        android:id="@+id/edt_uname"
+        android:layout_width="347dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:textSize="15sp"
+        android:hint="@string/hintuname"
+        android:inputType="textPersonName"
+        android:paddingStart="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="#c23616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_signup" />
+
+    <EditText
+        android:id="@+id/edt_pass2"
+        android:layout_width="347dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/repass"
+        android:inputType="textPersonName"
+        android:paddingStart="20sp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textColorHint="#c23616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_pass"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="347dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingStart="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="#c23616"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_mname" />
+
+    <EditText
+        android:id="@+id/edt_lname"
+        android:layout_width="168dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/lastname"
+        android:inputType="textPersonName"
+        android:paddingStart="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="#c23616"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_pass2"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edt_mname"
+        android:layout_width="168dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/middlename"
+        android:inputType="textPersonName"
+        android:paddingStart="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="#c23616"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_lname" />
+
+    <EditText
+        android:id="@+id/edt_fname"
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="@string/firstname"
+        android:inputType="textPersonName"
+        android:paddingStart="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="#c23616"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edt_lname"
+        app:layout_constraintTop_toBottomOf="@+id/edt_pass2" />
+
+    <EditText
+        android:id="@+id/edt_pass"
+        android:layout_width="347dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/hintpass"
+        android:inputType="textPersonName"
+        android:paddingStart="20sp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textColorHint="#c23616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_uname" />
+
+    <RadioButton
+        android:id="@+id/RB_fmale"
+        android:layout_width="81dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/female"
+        android:textSize="12sp"
+        android:textColor="#c23616"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_fname" />
+
+    <RadioButton
+        android:id="@+id/RB_male"
+        android:layout_width="82dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/males"
+        android:textColor="#c23616"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/RB_fmale"
+        app:layout_constraintStart_toEndOf="@+id/edt_mname"
+        app:layout_constraintTop_toBottomOf="@+id/edt_fname" />
+
+    <EditText
+        android:id="@+id/edt_address"
+        android:layout_width="344dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/address"
+        android:inputType="textMultiLine"
+        android:paddingStart="20dp"
+        android:textColorHint="#c23616"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_email" />
+
+    <ImageView
+        android:id="@+id/IV_signup"
+        android:layout_width="103dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/signup" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/register"
+        android:background="#fbc531"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_address" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

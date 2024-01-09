@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Municipal of Barangay Potrero</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account_yet">Don\'t have any account yet?</string>
+    <string name="signup"><b><u>Sign Up</u></b></string>
+    <string name="BRGY"><b><u>MUNICIPAL OF BARANGAY POTRERO</u></b></string>
+    <string name="forgot_password"><u>Forgot Password?</u> </string>
+    <string name="username">Username</string>
+    <string name="lblsignup">SIGN UP</string>
+    <string name="hintuname">Username</string>
+    <string name="hintpass">Password</string>
+    <string name="repass">Re-Type Password</string>
+    <string name="lastname">LastName</string>
+    <string name="firstname">FirstName</string>
+    <string name="middlename">MiddleName (optional)</string>
+    <string name="male">MALE</string>
+    <string name="males">Male</string>
+    <string name="address">Address</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="first_fragment">First fragmentttttt</string>
+    <string name="third_fragment">Third Fragment</string>
+    <string name="home">HOME</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="id">USER ID :</string>
+    <string name="_1">1</string>
+    <string name="edit_personal_information">Edit Personal Information</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_email">Change Email</string>
+    <string name="report_problem">Report Problem</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="surname">Surname</string>
+    <string name="comm">,</string>
+    <string name="fn">Firstname</string>
+    <string name="sent">A 4 digit verification code will be sent to your email.</string>
+    <string name="email_address">Email address</string>
+    <string name="forgot_password1">FORGOT PASSWORD</string>
+    <string name="submit">Submit</string>
+    <string name="emergency">EMERGENCY</string>
+    <string name="request">REQUEST</string>
+    <string name="all_rights_reserve_2022">All Rights Reserve Ⓒ2023</string>
+    <string name="verify">Verify</string>
+    <string name="please_input_the_verification_code">Please input the verification code!</string>
+    <string name="confirm">Confirm</string>
+    <string name="x__">X</string>
+    <string name="select_a_date">Double Tap to set your Birthday</string>
+    <string name="request_fill_up_form">Request Fill-Up Form</string>
+    <string name="residency">Residency :</string>
+    <string name="owned">Owned</string>
+    <string name="rented">Rented</string>
+    <string name="living_with_relatives">Living with relatives</string>
+    <string name="fullname">FullName :</string>
+    <string name="thisisemail123_gmail_com"><b><u>thisisemail123@gmail.com</u></b></string>
+    <string name="resend_code"><b>Resend Code</b></string>
+
+    <string-array name="docu_type">
+        <item>Barangay Clearance</item>
+        <item>Certificate of Indigency</item>
+        <item>Barangay Permit</item>
+        <item>Barangay Residency</item>
+    </string-array>
+
+    <string-array name="purpose">
+        <item>Local Employment</item>
+        <item>School Requirement</item>
+        <item>Travel Abroad</item>
+        <item>Maynilad</item>
+        <item>Postal ID</item>
+        <item>Passport</item>
+        <item>Residency</item>
+        <item>Overseas Employment</item>
+        <item>Bank Requirement</item>
+        <item>Medical Assitance Requirement</item>
+        <item>Meralco</item>
+        <item>Vehicle/Trasport Sticker</item>
+        <item>SSS/PAG-IBIG/PHILHEALTH</item>
+        <item>OTHERS</item>
+    </string-array>
+</resources>

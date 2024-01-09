@@ -1,0 +1,38 @@
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\Guna.UI2.dll
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.vbproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.Form1.resources
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.Resources.resources
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.vbproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.vbproj.CopyComplete
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.Form2.resources
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\MySql.Data.dll
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.Form3.resources
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\LiveCharts.dll
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\LiveCharts.pdb
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\LiveCharts.xml
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.Form4.resources
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.Form5.resources
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.Form6.resources
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\MsgShow.dll
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\MsgShow.xml
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.Form7.resources
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\Potrero Malabon App.exe.config
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\Potrero Malabon App.exe.manifest
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\Potrero Malabon App.application
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\Potrero Malabon App.exe
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\Potrero Malabon App.pdb
+C:\Users\LENOVO\source\repos\capsproject\capsproject\bin\Debug\Potrero Malabon App.xml
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\Potrero Malabon App.exe.manifest
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\Potrero Malabon App.application
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\Potrero Malabon App.exe
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\Potrero Malabon App.xml
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\Potrero Malabon App.pdb
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.Form8.resources
+C:\Users\LENOVO\source\repos\capsproject\capsproject\obj\Debug\capsproject.Form9.resources

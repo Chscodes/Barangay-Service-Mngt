@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f2f6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="10sp"
+                android:fontFamily="sans-serif-black"
+                android:text="Online Warranty"
+                android:textColor="#3d3d3d"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="98sp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Sa pag rehistro sa aplikasyon, kinukumpirma mo at ginagarantiyahan ang mga sumusunod:"
+                android:textColor="#3d3d3d"
+                android:textSize="13sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/T1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="25sp"
+                    android:layout_marginEnd="98sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="->  Lahat ng impormasyo na ibinibigay ay totoo, tama at hindi nakaliligaw sa abot ng iyong kaalaman, at pinapayagan mo ang pamahalaan ng Barangay Potrero na magsiyasat kung totoo ang impormasyong itong sa anumang partido."
+                    android:textColor="#3d3d3d"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/T2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/T1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="98sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="->  Malaya mong ibinibigay ang iyong pahintulot sa pagamit ng iyong personal na data para sa mga layunin ng application na ito. Pinapayagan mo ang ang pamahalaan ng Lungsod ng Potrero na mag siyasat kung
+                                    totoo ang iyong personal na data sa anumang partido na may hawak nito."
+                    android:textColor="#3d3d3d"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/T3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/T2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="98sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="-> Ano mang pag bayad o transaksyon ay hindi kasama sa mobile application na ito. Pag ka nakatangap ka na ng mensahe na pwede mo na kunin ang iyong request document maaari mo na din bayaran ito sa kanilang barangay."
+                    android:textColor="#3d3d3d"
+                    android:textSize="13sp" />
+
+
+                <TextView
+                    android:id="@+id/T4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/T3"
+                    android:layout_marginStart="55sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="98sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="-> Ikaw ay residente ng Brgy. Potrero Malabon."
+                    android:textColor="#3d3d3d"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/T5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/T4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="98sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="-> Naiintindihan mo na ang pagpaparehistro ay hindi isang garantiyang pagtanggap ng mga benepisyo, at ang pagtanggap ng pareho ay napapailalim sa pagpapatunay ay pagkakaroon ng mga pondo."
+                    android:textColor="#3d3d3d"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="25sp"
+                android:layout_marginEnd="98sp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Kung nalalaman na nagbigay ka ng nakakalinlang o maling impormasyon, maaaring sampahan ka ng kaso."
+                android:textColor="#3d3d3d"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="25sp"
+                android:layout_marginEnd="98sp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="By registering on the application, you represent and warrant the following:"
+                android:textColor="#3d3d3d"
+                android:textSize="13sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/T6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="98sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="->  All information provided is true, correct and non-misleading to the best of your knowledge, and authorize the Barangay Potrero government to verify this information with any third party."
+                    android:textColor="#3d3d3d"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/T7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/T6"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="98sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="->  You freely give your informed consent to the use of your personal data for the purposes of this application. You authorize the Barangay Potrero government to verify your personal data with any party that holds the data."
+                    android:textColor="#3d3d3d"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/T8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/T7"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="98sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="->  Any payment or transaction is not included in this application. When you received a notification that your requested document is ready for 'Pick Up', all payment is will be transact at brgy. hall if there's any. "
+                    android:textColor="#3d3d3d"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/T9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/T8"
+                    android:layout_marginStart="55dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="98sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="->  You are resident of Barangay Potrero Malabon."
+                    android:textColor="#3d3d3d"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/T10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/T9"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="98sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="->  You acknowledge that registration is not a guaranteed of receiving benefits, and receipt of the same is subject to verification and availability of funds. "
+                    android:textColor="#3d3d3d"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="25sp"
+                android:layout_marginEnd="98sp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="If you are found to have provided false, misleading or erroneous information, legal proceedings may be filed against you."
+                android:textColor="#3d3d3d"
+                android:textSize="13sp" />
+
+            <CheckBox
+                android:id="@+id/cb_agree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="25sp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:buttonTint="#636e72"
+                android:text="Nabasa ko at sumasang-ayon ako sa pahayag sa itaas.
+                              \n(I have read and agree to the statement above.)"
+                android:textColor="#3d3d3d" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

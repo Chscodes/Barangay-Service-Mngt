@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f6fa"
+    tools:context=".Profile" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdde1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_P_logout" />
+
+
+    <Button
+        android:id="@+id/btn_P_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#f5f6fa"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="20dp"
+        android:text="Cancel"
+        android:textAlignment="textStart"
+        android:textColor="#2f3640"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_P_logout" />
+
+    <Button
+        android:id="@+id/btn_P_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f6fa"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="20dp"
+        android:text="@string/logout"
+        android:textAlignment="textStart"
+        android:textColor="#2f3640"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_f3_about4" />
+
+    <Button
+        android:id="@+id/btn_f3_about4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f6fa"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="20dp"
+        android:text="@string/about"
+        android:textAlignment="textStart"
+        android:textColor="#2f3640"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_f3_report4" />
+
+    <Button
+        android:id="@+id/btn_f3_report4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f6fa"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="20dp"
+        android:text="@string/report_problem"
+        android:textAlignment="textStart"
+        android:textColor="#2f3640"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider9" />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdde1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_f3_changeemail4" />
+
+    <Button
+        android:id="@+id/btn_f3_changeemail4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f6fa"
+        android:drawableEnd="@drawable/ic_baseline_alternate_email_24"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="20dp"
+        android:text="@string/change_email"
+        android:textAlignment="textStart"
+        android:textColor="#2f3640"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_f3_changepass3" />
+
+    <Button
+        android:id="@+id/btn_f3_changepass3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f6fa"
+        android:drawableEnd="@drawable/ic_lock_open"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="20dp"
+        android:text="@string/change_password"
+        android:textAlignment="textStart"
+        android:textColor="#2f3640"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_f3_editinfo3" />
+
+    <Button
+        android:id="@+id/btn_f3_editinfo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f6fa"
+        android:drawableEnd="@drawable/ic_baseline_edit_24"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="20dp"
+        android:text="@string/edit_personal_information"
+        android:textAlignment="textStart"
+        android:textColor="#2f3640"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider8" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#dcdde1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relative" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="#dcdde1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerprofile" />
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider7">
+
+        <TextView
+            android:id="@+id/tv_f3_lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/lemonlight"
+            android:text="@string/surname"
+            android:textColor="#2f3640"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_f3_comma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tv_f3_lname"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="-5dp"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/fragmentcore"
+            android:text="@string/comm"
+            android:textColor="#2f3640"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_f3_fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="20sp"
+            android:layout_toEndOf="@+id/tv_f3_comma"
+            android:fontFamily="@font/lemonlight"
+            android:text="@string/fn"
+            android:textColor="#2f3640"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_newmain_labelid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_f3_lname"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/lemonlight"
+            android:text="@string/id"
+            android:textColor="#2f3640"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_f3_userID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_f3_lname"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/tv_newmain_labelid"
+            android:fontFamily="@font/lemonlight"
+            android:text="@string/_1"
+            android:textColor="#2f3640"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+
+
+        android:id="@+id/headerprofile"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#f5f6fa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+
+        <TextView
+            android:id="@+id/tv_f3_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/lemonbold"
+            android:text="@string/profile"
+            android:textColor="#192a56"
+            android:textSize="30sp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

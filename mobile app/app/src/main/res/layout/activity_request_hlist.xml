@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rprt_bg3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btn_h_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#f5f6fa"
+            app:srcCompat="@drawable/arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="monospace"
+            android:text="Transactions History"
+            android:textColor="#dcdde1"
+            android:textSize="17sp"
+            />
+
+    </LinearLayout>
+
+
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#883B0C" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp">
+
+        <ToggleButton
+            android:id="@+id/tg_Settled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:background="@drawable/checked_btn_rprtbg"
+            android:checked="true"
+            android:textColor="#CC5913"
+            android:textOff="Settled Requests"
+            android:textOn="Settled Requests" />
+
+        <ToggleButton
+            android:id="@+id/tg_Declined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tg_Settled"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5sp"
+            android:background="@drawable/btn_rprtbg"
+            android:textOff="Declined Requests"
+            android:textOn="Declined Requests" />
+
+        <ToggleButton
+            android:id="@+id/tg_Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tg_Declined"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5sp"
+            android:background="@drawable/btn_rprtbg"
+            android:textOff="Canceled Requests"
+            android:textOn="Canceled Requests" />
+
+
+    </RelativeLayout>
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        android:background="#883B0C" />
+
+    <ProgressBar
+        android:id="@+id/HHpBLOAD"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/lbl_H_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="monospace"
+        android:text="Setteled Requests"
+        android:textStyle="bold"
+        android:textColor="#dcdde1"
+        android:textSize="20sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ReqH_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/iVNULLHH"
+        android:layout_width="wrap_content"
+        android:layout_height="186dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:srcCompat="@drawable/noreq" />
+
+    <TextView
+        android:id="@+id/lblnullHH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_text_rprt_"
+        android:fontFamily="@font/lemonbold"
+        android:text="You don't have any pending request"
+        android:textColor="#2d3436"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Barangay Potrero</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account_yet">Don\'t have any account yet?</string>
+    <string name="signup"><b><u>Sign Up</u></b></string>
+    <string name="BRGY"><b><u>MUNICIPAL OF BARANGAY POTRERO</u></b></string>
+    <string name="forgot_password"><u>Forgot Password?</u> </string>
+    <string name="username">Username</string>
+    <string name="lblsignup">SIGN UP</string>
+    <string name="hintuname">Username</string>
+    <string name="hintpass">Password</string>
+    <string name="repass">Re-Type Password</string>
+    <string name="lastname">LastName</string>
+    <string name="firstname">FirstName</string>
+    <string name="middlename">MiddleName</string>
+    <string name="male">MALE</string>
+    <string name="males">Male</string>
+    <string name="address">Address</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+</resources>
